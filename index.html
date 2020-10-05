@@ -567,6 +567,10 @@
       </div>
     </footer>
   </body>
-  <script src="assets/script/script.js">
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
   </script>
 </html>
